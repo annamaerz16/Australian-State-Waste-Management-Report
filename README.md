@@ -25,8 +25,13 @@ Microsoft Excel
 
 #### 2. Conditional Formatting
 ##### Core Waste Ton Table
+
 ##### Resource Recovery Rates by Region Table
-##### Resource recovery and recycling rates Table
+- trend-based conditional formatting: Data Bars
+- trend-based conditional formatting:Iconsets (Edit rule: green: >0, yellow:=0, red:<0, show icons only) (shows increase/decrease growth rate) 
+##### Resource Recovery and Recycling Rates Table
+- Landfill: trend-based conditional formatting: colorscale (red-yellow-green-scale)
+- 
 
 #### 3. Macros
 ##### Core Waste Ton Table
