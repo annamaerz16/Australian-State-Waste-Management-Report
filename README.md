@@ -25,16 +25,20 @@ Microsoft Excel
 
 #### 2. Conditional Formatting
 ##### Core Waste Ton Table
+- value-based conditional formatting: Bottom 5 Values
+- value-based conditional formatting: Map highlights state in color if the state is selected in cell K1 (new rule--> formula, Format painter for all states)
+- value-based conditional formatting: highlight row of the state that is selected in K1 (new rule --> formula, change order of rules to still see the highlighted bottom 5 values)
 
 ##### Resource Recovery Rates by Region Table
 - trend-based conditional formatting: Data Bars
 - trend-based conditional formatting:Iconsets (Edit rule: green: >0, yellow:=0, red:<0, show icons only) (shows increase/decrease growth rate) 
 ##### Resource Recovery and Recycling Rates Table
 - Landfill: trend-based conditional formatting: colorscale (red-yellow-green-scale)
-- 
+- value-based conditional formatting: Recycling Rates below 48%
 
 #### 3. Macros
 ##### Core Waste Ton Table
+- Link Map to Macro, so by clicking the state in the map, row values geht highlighted (record macro, add macros for all states (VBA), assign macros to map)
 
 
 
